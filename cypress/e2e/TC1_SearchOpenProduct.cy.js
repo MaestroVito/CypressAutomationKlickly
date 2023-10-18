@@ -1,17 +1,16 @@
+import ProductData from '../test-data/productData';
+import ProductUtils from '../functions/productUtils';
 import Marketplace from '../page-objects/marketplace';
 import Product from '../page-objects/product';
 
 describe('Test Case #1: Search and Open Product', () =>
 {
+    // Test data
+    const productTitle = ProductData.getBrunswickLizardTitle();
+    const { firstPart, secondPart } = ProductUtils.splitProductTitle(productTitle);
+
     it('should search for a product and verify its opening', () =>
     {
-        // Test data
-        const productTitle = 'Cat 2 test';
-
-        // Split the test data into two parts
-        const firstPart = productTitle.substring(0, 20);
-        const secondPart = productTitle.substring(20);
-
         // Enter homepage
         Marketplace.homepage();
 

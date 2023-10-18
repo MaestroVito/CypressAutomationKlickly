@@ -1,8 +1,18 @@
-class Marketplace {
+class Marketplace
+{
 
-    homepage() {
-
+    homepage()
+    {
         cy.visit('https://giftly.klickly-dev.com/marketplace');
+    }
+
+    searchStarWarsPage1()
+    {
+        return 'https://kcp-api.klickly-dev.com/marketplace/search?q=STAR%20WARS&page=1';
+    }
+
+    searchStarWarsPage2() {
+        return 'https://kcp-api.klickly-dev.com/marketplace/search?q=STAR%20WARS&page=2';
     }
 
     searchField()
@@ -33,6 +43,7 @@ class Marketplace {
             .find('div')
             .last();
     }
+
 }
 
 export default new Marketplace();

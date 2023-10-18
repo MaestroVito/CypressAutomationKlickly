@@ -1,16 +1,20 @@
+import ProductData from '../test-data/productData';
 import Marketplace from '../page-objects/marketplace';
+import TestData from '../test-data/testData';
+import { performSearchAssertions } from '../functions/searchAssertions';
+import { throwErrorResponse } from '../functions/searchAssertions';
 
 describe('Test Case #2: Search for STAR WARS Products', () =>
 {
+    // Test data
+    const productTitle = ProductData.getStarWarsTitle();
+    const expectedProducts = ProductData.getExpectedProductsList();
+    const searchURL = Marketplace.searchStarWarsPage1();
+    const writeJSON = TestData.writeFixtureTC2();
+    const missingProducts = [];
+
     it('should find 2 products containing "STAR WARS" in their title', () =>
     {
-        // Test data
-        const productTitle = 'STAR WARS';
-        const expectedProducts = ["ROGUE ONE: A STAR WARS STORY [4K UHD]",
-            "STAR WARS The Black Series Clone Commander Bly Toy 6-inch Scale The Clone Wars Collectible Action Figure, Kids Ages 4 and Up"];
-        const searchURL = 'https://kcp-api.klickly-dev.com/marketplace/search?q=STAR%20WARS&page=1';
-        const missingProducts = [];
-
         // Intercept the GET request to "/search" and handle the response
         cy.intercept('GET', searchURL).as('searchRequest');
 
@@ -38,43 +42,11 @@ describe('Test Case #2: Search for STAR WARS Products', () =>
             // Extract the response body
             const responseBody = interception.response.body;
 
-            // Check if the response contains promotions
-            cy.wrap(responseBody).should('have.property', 'promotions');
-
-            // Create an array of promises to check each product title
-            const productCheckPromises = expectedProducts.map((productTitle) =>
+            // Create an array for product availability
+            performSearchAssertions(responseBody, expectedProducts, missingProducts).then(() =>
             {
-                return new Promise((resolve, reject) =>
-                {
-                    const titles = responseBody.promotions.map((promotion) => promotion.title);
-
-                    if (!titles.includes(productTitle))
-                    {
-                        missingProducts.push(productTitle);
-                        cy.log(`Product: \n "${productTitle}" \n Not found.`);
-                        resolve(false);
-                    } else {
-                        expect(titles).to.include(productTitle);
-                        cy.log(`Product: \n "${productTitle}" \n Is present.`);
-                        resolve(true);
-                    }
-
-                });
-
-            });
-
-            Promise.all(productCheckPromises).then(() =>
-            {
-                // Write the response to a JSON file
-                cy.writeFile('cypress/fixtures/TC2_SearchStarWarsProduct.json', responseBody, 'utf8', { flag: 'w+' }).then(() =>
-                {
-                    if (missingProducts.length > 0)
-                    {
-                        const errorMessage = `Product(s) not found: \n ${missingProducts.join(';\n')} \n Created Response Body JSON`;
-                        throw new Error(errorMessage);
-                    }
-
-                });
+                // Throw error and write the response to a JSON file
+                return throwErrorResponse(responseBody, missingProducts, writeJSON);
 
             });
 

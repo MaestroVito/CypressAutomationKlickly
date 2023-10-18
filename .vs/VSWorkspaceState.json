@@ -4,9 +4,11 @@
     "\\cypress",
     "\\cypress\\e2e",
     "\\cypress\\fixtures",
+    "\\cypress\\functions",
     "\\cypress\\page-objects",
-    "\\cypress\\support"
+    "\\cypress\\support",
+    "\\cypress\\test-data"
   ],
-  "SelectedNode": "\\cypress\\fixtures\\TC2_SearchStarWarsProduct.json",
+  "SelectedNode": "\\cypress\\fixtures\\TC3_PaginationScroll.json",
   "PreviewInSolutionExplorer": false
 }

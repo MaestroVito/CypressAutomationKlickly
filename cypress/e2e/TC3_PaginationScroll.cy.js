@@ -1,19 +1,23 @@
+import ProductData from '../test-data/productData';
 import Marketplace from '../page-objects/marketplace';
+import TestData from '../test-data/testData';
+import { performPaginationAssertion } from '../functions/paginationAssertion';
+import { throwErrorResponse } from '../functions/paginationAssertion';
 
 describe('Test Case #3: Verify Products after Pagination Scroll', () =>
 {
+    // Test data
+    const productTitle = ProductData.getStarWarsTitle();
+    const searchPage1 = Marketplace.searchStarWarsPage1();
+    const searchPage2 = Marketplace.searchStarWarsPage2();
+    const writeJSON = TestData.writeFixtureTC3();
+    const duplicateProducts = [];
+
     it('should verify products on the first and second page are different', () =>
     {
-        // Test data
-        const productTitle = 'STAR WARS';
-        const searchURL = 'https://kcp-api.klickly-dev.com/marketplace/search?q=STAR%20WARS&page=';
-        const duplicateProducts = [];
-        let firstPageData;
-        let secondPageData;
-
         // Intercept request for both first and second pages
-        cy.intercept('GET', `${searchURL}1`).as('firstPageRequest');
-        cy.intercept('GET', `${searchURL}2`).as('secondPageRequest');
+        cy.intercept('GET', searchPage1).as('firstPageRequest');
+        cy.intercept('GET', searchPage2).as('secondPageRequest');
 
         // Enter homepage
         Marketplace.homepage();
@@ -36,7 +40,7 @@ describe('Test Case #3: Verify Products after Pagination Scroll', () =>
         // Wait for the first page request to complete
         cy.wait('@firstPageRequest').then((firstPageInterception) =>
         {
-            firstPageData = firstPageInterception.response.body;
+            const firstPageData = firstPageInterception.response.body;
 
             // Assert that the response body contains promotions
             cy.wrap(firstPageData).should('have.property', 'promotions');
@@ -47,48 +51,13 @@ describe('Test Case #3: Verify Products after Pagination Scroll', () =>
             // Wait for the second page request to complete
             cy.wait('@secondPageRequest').then((secondPageInterception) =>
             {
-                secondPageData = secondPageInterception.response.body;
+                const secondPageData = secondPageInterception.response.body;
 
-                // Assert that the response body contains promotions
-                cy.wrap(secondPageData).should('have.property', 'promotions');
-            
-                // Compare products on the first and second pages
-                const firstPageProduct = firstPageData.promotions.map((promotion) => promotion.title);
-                const secondPageProduct = secondPageData.promotions.map((promotion) => promotion.title);
-
-                // Create an array of Promises to check for duplicates
-                const productCheckPromises = firstPageProduct.map((productTitles) =>
+                // Create an array and check for duplicates
+                performPaginationAssertion(firstPageData, secondPageData, duplicateProducts).then(() =>
                 {
-                    return new Promise((resolve, reject) =>
-                    {
-                        if (secondPageProduct.includes(productTitles))
-                        {
-                            // Product title found on both pages, collect it
-                            duplicateProducts.push(productTitles);
-                            cy.log(`Product: \n "${productTitles}" \n Is duplicate.`);
-                            resolve(false);
-                        } else {
-                            expect(secondPageProduct).to.not.include(productTitles);
-                            resolve(true);
-                        }
-                        
-                    });
-
-                });
-
-                Promise.all(productCheckPromises).then(() =>
-                {
-                    // Write the duplicates to a JSON file
-                    cy.writeFile('cypress/fixtures/TC3_PaginationScroll.json', `${duplicateProducts.join('\n')}`).then(() =>
-                    {
-                        // After the iteration, check for duplicate products
-                        if (duplicateProducts.length > 0)
-                        {
-                            const errorMessage = `Duplicate product(s) found on both pages: \n ${duplicateProducts.join(';\n') }`;
-                            throw new Error(errorMessage);
-                        }
-
-                    });
+                    // Throw error and write the response to a JSON file
+                    return throwErrorResponse(duplicateProducts, writeJSON);
 
                 });
 
