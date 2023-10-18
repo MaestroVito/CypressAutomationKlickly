@@ -1,0 +1,2 @@
+# CypressAutomationKlickly
+ Test for Klickly

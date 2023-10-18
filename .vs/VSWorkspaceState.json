@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cypress",
+    "\\cypress\\e2e",
+    "\\cypress\\fixtures",
+    "\\cypress\\page-objects",
+    "\\cypress\\support"
+  ],
+  "SelectedNode": "\\cypress\\fixtures\\TC2_SearchStarWarsProduct.json",
+  "PreviewInSolutionExplorer": false
+}
