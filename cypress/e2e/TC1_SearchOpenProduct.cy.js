@@ -6,7 +6,7 @@ import Product from '../page-objects/product';
 describe('Test Case #1: Search and Open Product', () =>
 {
     // Test data
-    const productTitle = ProductData.getBrunswickLizardTitle();
+    const productTitle = ProductData.getCatTestTitle();
     const { firstPart, secondPart } = ProductUtils.splitProductTitle(productTitle);
 
     it('should search for a product and verify its opening', () =>

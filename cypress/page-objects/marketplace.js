@@ -17,17 +17,17 @@ class Marketplace
 
     searchField()
     {
-        return cy.get('[class="sc-dxcDKg fjZlts"]');
+        return cy.get('[class="sc-iIUQWv jpNogh"]');
     }
 
     searchFieldSuggestions()
     {
-        return cy.get('[class="sc-iXzfSG cpVZLN"]');
+        return cy.get('[class="sc-kTLmzF cbnHZh"]');
     }
 
     searchButton()
     {
-        return cy.get('[class="sc-eDPEul dVMMBf"]');
+        return cy.get('[class="ant-btn css-15rg2km ant-btn-primary ant-btn-sm sc-crHmcD eWRUbM sc-jtXEFf gaXnty"]');
     }
 
     firstResult()

@@ -1,7 +1,9 @@
-class Product {
+class Product
+{
 
-	title() {
-		return cy.get('[class="styles__StyledInfo-sc-1h5zpst-1 bOTDt"]');
+	title()
+	{
+		return cy.get('[class="ant-typography sc-fFeiMQ cvTPh styles__StyledTitle-sc-1h5zpst-4 nPIuo css-15rg2km"]');
 	}
 
 }

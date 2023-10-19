@@ -1041,442 +1041,22 @@
       "brandLink": "https://dev-giftly-store-12.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Flesh-Eater+Courts%3A+Star+Collecting%21+Action+Figure%2C+Black%2C+12.3+x+8.9+x+2.7+cm"
     },
     {
-      "id": "637df11d0968140008e5f0b3",
-      "_id": "637df11d0968140008e5f0b3",
-      "externalId": "7325225124037",
+      "id": "637df11d0968140008e5f0b6",
+      "_id": "637df11d0968140008e5f0b6",
+      "externalId": "7327895453893",
       "account": "62b19450a4f9f31dec255bcc",
       "campaign": "638618c336cbcf0012b2c94f",
-      "title": "Automotive azure 91727",
-      "description": "<strong>Some unique description with SKU1668724219195</strong>",
-      "brandName": "test-dev-alina",
-      "shopDomain": "test-dev-alina.myshopify.com",
-      "category": "automotive",
-      "images": [
-        {
-          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_370c804b-011b-446b-877f-f2124e55f418.jpg?v=1668724231",
-          "externalId": 32171571085509,
-          "position": 1,
-          "externalProductId": 7325225124037
-        }
-      ],
-      "options": [
-        {
-          "values": [
-            "Default Title"
-          ],
-          "name": "Title",
-          "externalId": 9365134901445,
-          "position": 1,
-          "externalProductId": 7325225124037
-        }
-      ],
-      "variants": [
-        {
-          "requiresShipping": false,
-          "quantity": 100,
-          "originalPrice": null,
-          "price": 100,
-          "inventoryPolicy": "deny",
-          "fulfillmentService": "manual",
-          "externalId": 41890155397317,
-          "option1": "Default Title",
-          "position": 1,
-          "title": "Default Title",
-          "externalProductId": 7325225124037,
-          "rewards": [],
-          "priceDetails": {
-            "originalPrice": 100,
-            "rewardsPrice": 0,
-            "rewardsPercent": 0,
-            "youPayPrice": 100
-          },
-          "pointsDetails": {
-            "maxPoints": 2250,
-            "isWelcome": false,
-            "list": [
-              {
-                "type": "percent",
-                "value": 2250
-              }
-            ]
-          }
-        }
-      ],
-      "creativeSettings": {
-        "adImageView": "cropped",
-        "logoImage": {
-          "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
-        }
-      },
-      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Automotive+azure+91727"
-    },
-    {
-      "id": "637df11d0968140008e5f0b4",
-      "_id": "637df11d0968140008e5f0b4",
-      "externalId": "7325213884613",
-      "account": "62b19450a4f9f31dec255bcc",
-      "campaign": "638618c336cbcf0012b2c94f",
-      "title": "Automotive indigo 93898",
-      "description": "<strong>Some unique description with SKU1668720451587</strong>",
-      "brandName": "test-dev-alina",
-      "shopDomain": "test-dev-alina.myshopify.com",
-      "category": "automotive",
-      "images": [
-        {
-          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_167c55a5-2982-4e6d-b243-4d7b122a7933.jpg?v=1668720470",
-          "externalId": 32171431198917,
-          "position": 1,
-          "externalProductId": 7325213884613
-        }
-      ],
-      "options": [
-        {
-          "values": [
-            "Default Title"
-          ],
-          "name": "Title",
-          "externalId": 9365122842821,
-          "position": 1,
-          "externalProductId": 7325213884613
-        }
-      ],
-      "variants": [
-        {
-          "requiresShipping": false,
-          "quantity": 100,
-          "originalPrice": null,
-          "price": 100,
-          "inventoryPolicy": "deny",
-          "fulfillmentService": "manual",
-          "externalId": 41890131116229,
-          "option1": "Default Title",
-          "position": 1,
-          "title": "Default Title",
-          "externalProductId": 7325213884613,
-          "rewards": [],
-          "priceDetails": {
-            "originalPrice": 100,
-            "rewardsPrice": 0,
-            "rewardsPercent": 0,
-            "youPayPrice": 100
-          },
-          "pointsDetails": {
-            "maxPoints": 2250,
-            "isWelcome": false,
-            "list": [
-              {
-                "type": "percent",
-                "value": 2250
-              }
-            ]
-          }
-        }
-      ],
-      "creativeSettings": {
-        "adImageView": "cropped",
-        "logoImage": {
-          "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
-        }
-      },
-      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Automotive+indigo+93898"
-    },
-    {
-      "id": "637df11d0968140008e5f0b5",
-      "_id": "637df11d0968140008e5f0b5",
-      "externalId": "7327897256133",
-      "account": "62b19450a4f9f31dec255bcc",
-      "campaign": "638618c336cbcf0012b2c94f",
-      "title": "Books red 65157",
-      "description": "<strong>Some unique description with SKU1669105074455</strong>",
-      "brandName": "test-dev-alina",
-      "shopDomain": "test-dev-alina.myshopify.com",
-      "category": "office products",
-      "images": [
-        {
-          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/3949_0914da87-a286-421a-8955-d1bf2b26faae.jpg?v=1669105079",
-          "externalId": 32199833878725,
-          "position": 1,
-          "externalProductId": 7327897256133
-        }
-      ],
-      "options": [
-        {
-          "values": [
-            "Default Title"
-          ],
-          "name": "Title",
-          "externalId": 9368433721541,
-          "position": 1,
-          "externalProductId": 7327897256133
-        }
-      ],
-      "variants": [
-        {
-          "requiresShipping": false,
-          "quantity": 100,
-          "originalPrice": null,
-          "price": 30,
-          "inventoryPolicy": "deny",
-          "fulfillmentService": "manual",
-          "externalId": 41898527555781,
-          "option1": "Default Title",
-          "position": 1,
-          "title": "Default Title",
-          "externalProductId": 7327897256133,
-          "rewards": [],
-          "priceDetails": {
-            "originalPrice": 30,
-            "rewardsPrice": 0,
-            "rewardsPercent": 0,
-            "youPayPrice": 30
-          },
-          "pointsDetails": {
-            "maxPoints": 675,
-            "isWelcome": false,
-            "list": [
-              {
-                "type": "percent",
-                "value": 675
-              }
-            ]
-          }
-        }
-      ],
-      "creativeSettings": {
-        "adImageView": "cropped",
-        "logoImage": {
-          "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
-        }
-      },
-      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Books+red+65157"
-    },
-    {
-      "id": "637df11d0968140008e5f0ba",
-      "_id": "637df11d0968140008e5f0ba",
-      "externalId": "7324973039813",
-      "account": "62b19450a4f9f31dec255bcc",
-      "campaign": "638618c336cbcf0012b2c94f",
-      "title": "Chips 1668700093249",
-      "description": "<strong>Some unique description with SKU1668700093249</strong>",
-      "brandName": "test-dev-alina",
-      "shopDomain": "test-dev-alina.myshopify.com",
-      "category": "grocery & gourmet food",
-      "images": [
-        {
-          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_0335a49a-3923-4f66-8a73-f4b320971ddf.jpg?v=1668700095",
-          "externalId": 32169990848709,
-          "position": 1,
-          "externalProductId": 7324973039813
-        }
-      ],
-      "options": [
-        {
-          "values": [
-            "Default Title"
-          ],
-          "name": "Title",
-          "externalId": 9364871676101,
-          "position": 1,
-          "externalProductId": 7324973039813
-        }
-      ],
-      "variants": [
-        {
-          "requiresShipping": false,
-          "quantity": 100,
-          "originalPrice": null,
-          "price": 100,
-          "inventoryPolicy": "deny",
-          "fulfillmentService": "manual",
-          "externalId": 41889602371781,
-          "option1": "Default Title",
-          "position": 1,
-          "title": "Default Title",
-          "externalProductId": 7324973039813,
-          "rewards": [],
-          "priceDetails": {
-            "originalPrice": 100,
-            "rewardsPrice": 0,
-            "rewardsPercent": 0,
-            "youPayPrice": 100
-          },
-          "pointsDetails": {
-            "maxPoints": 2250,
-            "isWelcome": false,
-            "list": [
-              {
-                "type": "percent",
-                "value": 2250
-              }
-            ]
-          }
-        }
-      ],
-      "creativeSettings": {
-        "adImageView": "cropped",
-        "logoImage": {
-          "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
-        }
-      },
-      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Chips+1668700093249"
-    },
-    {
-      "id": "637df11d0968140008e5f0bc",
-      "_id": "637df11d0968140008e5f0bc",
-      "externalId": "7324966060229",
-      "account": "62b19450a4f9f31dec255bcc",
-      "campaign": "638618c336cbcf0012b2c94f",
-      "title": "Computer 1668699130741",
-      "description": "<strong>Some unique description with SKU1668699130744</strong>",
-      "brandName": "test-dev-alina",
-      "shopDomain": "test-dev-alina.myshopify.com",
-      "category": "electronics",
-      "images": [
-        {
-          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_ff2a7093-1289-4207-8fcc-73ae8900cffb.jpg?v=1668699132",
-          "externalId": 32169864102085,
-          "position": 1,
-          "externalProductId": 7324966060229
-        }
-      ],
-      "options": [
-        {
-          "values": [
-            "Default Title"
-          ],
-          "name": "Title",
-          "externalId": 9364864270533,
-          "position": 1,
-          "externalProductId": 7324966060229
-        }
-      ],
-      "variants": [
-        {
-          "requiresShipping": false,
-          "quantity": 100,
-          "originalPrice": null,
-          "price": 100,
-          "inventoryPolicy": "deny",
-          "fulfillmentService": "manual",
-          "externalId": 41889580318917,
-          "option1": "Default Title",
-          "position": 1,
-          "title": "Default Title",
-          "externalProductId": 7324966060229,
-          "rewards": [],
-          "priceDetails": {
-            "originalPrice": 100,
-            "rewardsPrice": 0,
-            "rewardsPercent": 0,
-            "youPayPrice": 100
-          },
-          "pointsDetails": {
-            "maxPoints": 2250,
-            "isWelcome": false,
-            "list": [
-              {
-                "type": "percent",
-                "value": 2250
-              }
-            ]
-          }
-        }
-      ],
-      "creativeSettings": {
-        "adImageView": "cropped",
-        "logoImage": {
-          "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
-        }
-      },
-      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Computer+1668699130741"
-    },
-    {
-      "id": "637df11d0968140008e5f0bf",
-      "_id": "637df11d0968140008e5f0bf",
-      "externalId": "7327896699077",
-      "account": "62b19450a4f9f31dec255bcc",
-      "campaign": "638618c336cbcf0012b2c94f",
-      "title": "Computers tan 82944",
-      "description": "<strong>Some unique description with SKU1669104772302</strong>",
-      "brandName": "test-dev-alina",
-      "shopDomain": "test-dev-alina.myshopify.com",
-      "category": "electronics",
-      "images": [
-        {
-          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/3949_6400b907-e709-480e-8a8e-f4e00febd15d.jpg?v=1669104777",
-          "externalId": 32199806091461,
-          "position": 1,
-          "externalProductId": 7327896699077
-        }
-      ],
-      "options": [
-        {
-          "values": [
-            "Default Title"
-          ],
-          "name": "Title",
-          "externalId": 9368433164485,
-          "position": 1,
-          "externalProductId": 7327896699077
-        }
-      ],
-      "variants": [
-        {
-          "requiresShipping": false,
-          "quantity": 100,
-          "originalPrice": null,
-          "price": 30,
-          "inventoryPolicy": "deny",
-          "fulfillmentService": "manual",
-          "externalId": 41898525229253,
-          "option1": "Default Title",
-          "position": 1,
-          "title": "Default Title",
-          "externalProductId": 7327896699077,
-          "rewards": [],
-          "priceDetails": {
-            "originalPrice": 30,
-            "rewardsPrice": 0,
-            "rewardsPercent": 0,
-            "youPayPrice": 30
-          },
-          "pointsDetails": {
-            "maxPoints": 675,
-            "isWelcome": false,
-            "list": [
-              {
-                "type": "percent",
-                "value": 675
-              }
-            ]
-          }
-        }
-      ],
-      "creativeSettings": {
-        "adImageView": "cropped",
-        "logoImage": {
-          "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
-        }
-      },
-      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Computers+tan+82944"
-    },
-    {
-      "id": "637df11d0968140008e5f0d0",
-      "_id": "637df11d0968140008e5f0d0",
-      "externalId": "7327337382085",
-      "account": "62b19450a4f9f31dec255bcc",
-      "campaign": "638618c336cbcf0012b2c94f",
-      "title": "Home cyan 87731",
-      "description": "<strong>Some unique description with SKU1669040753757</strong>",
+      "title": "Books salmon 38416",
+      "description": "<strong>Some unique description with SKU1669104429280</strong>",
       "brandName": "test-dev-alina",
       "shopDomain": "test-dev-alina.myshopify.com",
       "category": "toys & games",
       "images": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_93e39b8b-7d9d-4c59-9d4d-5c401a5a665b.jpg?v=1669040766",
-          "externalId": 32192671744197,
+          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/3949_58df021c-85ef-4490-8173-6ac69323ab62.jpg?v=1669104440",
+          "externalId": 32199773225157,
           "position": 1,
-          "externalProductId": 7327337382085
+          "externalProductId": 7327895453893
         }
       ],
       "options": [
@@ -1485,9 +1065,79 @@
             "Default Title"
           ],
           "name": "Title",
-          "externalId": 9367813390533,
+          "externalId": 9368431820997,
           "position": 1,
-          "externalProductId": 7327337382085
+          "externalProductId": 7327895453893
+        }
+      ],
+      "variants": [
+        {
+          "requiresShipping": false,
+          "quantity": 100,
+          "originalPrice": null,
+          "price": 30,
+          "inventoryPolicy": "deny",
+          "fulfillmentService": "manual",
+          "externalId": 41898521067717,
+          "option1": "Default Title",
+          "position": 1,
+          "title": "Default Title",
+          "externalProductId": 7327895453893,
+          "rewards": [],
+          "priceDetails": {
+            "originalPrice": 30,
+            "rewardsPrice": 0,
+            "rewardsPercent": 0,
+            "youPayPrice": 30
+          },
+          "pointsDetails": {
+            "maxPoints": 675,
+            "isWelcome": false,
+            "list": [
+              {
+                "type": "percent",
+                "value": 675
+              }
+            ]
+          }
+        }
+      ],
+      "creativeSettings": {
+        "adImageView": "cropped",
+        "logoImage": {
+          "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
+        }
+      },
+      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Books+salmon+38416"
+    },
+    {
+      "id": "637df11d0968140008e5f0b7",
+      "_id": "637df11d0968140008e5f0b7",
+      "externalId": "7325192290501",
+      "account": "62b19450a4f9f31dec255bcc",
+      "campaign": "638618c336cbcf0012b2c94f",
+      "title": "Books silver 01662",
+      "description": "<strong>Some unique description with SKU1668712877718</strong>",
+      "brandName": "test-dev-alina",
+      "shopDomain": "test-dev-alina.myshopify.com",
+      "category": "office products",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_ef8259e1-ecf6-4b6b-9059-cfa0a318e6c8.jpg?v=1668712890",
+          "externalId": 32170884989125,
+          "position": 1,
+          "externalProductId": 7325192290501
+        }
+      ],
+      "options": [
+        {
+          "values": [
+            "Default Title"
+          ],
+          "name": "Title",
+          "externalId": 9365095645381,
+          "position": 1,
+          "externalProductId": 7325192290501
         }
       ],
       "variants": [
@@ -1498,11 +1148,11 @@
           "price": 30,
           "inventoryPolicy": "deny",
           "fulfillmentService": "manual",
-          "externalId": 41896321777861,
+          "externalId": 41890000732357,
           "option1": "Default Title",
           "position": 1,
           "title": "Default Title",
-          "externalProductId": 7327337382085,
+          "externalProductId": 7325192290501,
           "rewards": [],
           "priceDetails": {
             "originalPrice": 30,
@@ -1528,25 +1178,25 @@
           "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
         }
       },
-      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Home+cyan+87731"
+      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Books+silver+01662"
     },
     {
-      "id": "637df11d0968140008e5f0d3",
-      "_id": "637df11d0968140008e5f0d3",
-      "externalId": "7327907807429",
+      "id": "637df11d0968140008e5f0bb",
+      "_id": "637df11d0968140008e5f0bb",
+      "externalId": "7324932669637",
       "account": "62b19450a4f9f31dec255bcc",
       "campaign": "638618c336cbcf0012b2c94f",
-      "title": "Industrial ivory 51025",
-      "description": "<strong>Some unique description with SKU1669108813020</strong>",
+      "title": "Clothing red 19350",
+      "description": "<strong>Some unique description with SKU1668695416903</strong>",
       "brandName": "test-dev-alina",
       "shopDomain": "test-dev-alina.myshopify.com",
       "category": "clothing, shoes & jewelry",
       "images": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/3949_4ddbed63-2ba1-48d9-9422-a52b50575660.jpg?v=1669108820",
-          "externalId": 32200191574213,
+          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/3949_32f25577-0fec-4940-8d3d-932a11dfde4e.jpg?v=1668695422",
+          "externalId": 32169425928389,
           "position": 1,
-          "externalProductId": 7327907807429
+          "externalProductId": 7324932669637
         }
       ],
       "options": [
@@ -1555,9 +1205,9 @@
             "Default Title"
           ],
           "name": "Title",
-          "externalId": 9368445714629,
+          "externalId": 9364825342149,
           "position": 1,
-          "externalProductId": 7327907807429
+          "externalProductId": 7324932669637
         }
       ],
       "variants": [
@@ -1568,11 +1218,11 @@
           "price": 30,
           "inventoryPolicy": "deny",
           "fulfillmentService": "manual",
-          "externalId": 41898577100997,
+          "externalId": 41889459503301,
           "option1": "Default Title",
           "position": 1,
           "title": "Default Title",
-          "externalProductId": 7327907807429,
+          "externalProductId": 7324932669637,
           "rewards": [],
           "priceDetails": {
             "originalPrice": 30,
@@ -1598,25 +1248,25 @@
           "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
         }
       },
-      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Industrial+ivory+51025"
+      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Clothing+red+19350"
     },
     {
-      "id": "637df11e0968140008e5f0d6",
-      "_id": "637df11e0968140008e5f0d6",
-      "externalId": "7324950921413",
+      "id": "637df11d0968140008e5f0bd",
+      "_id": "637df11d0968140008e5f0bd",
+      "externalId": "7327363432645",
       "account": "62b19450a4f9f31dec255bcc",
       "campaign": "638618c336cbcf0012b2c94f",
-      "title": "infomediaries 1668697386555 Tuna 1668697386555",
-      "description": "<strong>Some unique description with SKU1668697394558</strong>",
+      "title": "Computers mint green 38097",
+      "description": "<strong>Some unique description with SKU1669047428595</strong>",
       "brandName": "test-dev-alina",
       "shopDomain": "test-dev-alina.myshopify.com",
-      "category": "sports & outdoors",
+      "category": "home & kitchen",
       "images": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_240e8cd5-7501-44f8-b733-3e1e4d21b6cd.jpg?v=1668697396",
-          "externalId": 32169670803653,
+          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/3949.jpg?v=1669047433",
+          "externalId": 32193158447301,
           "position": 1,
-          "externalProductId": 7324950921413
+          "externalProductId": 7327363432645
         }
       ],
       "options": [
@@ -1625,9 +1275,79 @@
             "Default Title"
           ],
           "name": "Title",
-          "externalId": 9364848345285,
+          "externalId": 9367843897541,
           "position": 1,
-          "externalProductId": 7324950921413
+          "externalProductId": 7327363432645
+        }
+      ],
+      "variants": [
+        {
+          "requiresShipping": true,
+          "quantity": 200,
+          "originalPrice": null,
+          "price": 30,
+          "inventoryPolicy": "deny",
+          "fulfillmentService": "manual",
+          "externalId": 41896463171781,
+          "option1": "Default Title",
+          "position": 1,
+          "title": "Default Title",
+          "externalProductId": 7327363432645,
+          "rewards": [],
+          "priceDetails": {
+            "originalPrice": 30,
+            "rewardsPrice": 0,
+            "rewardsPercent": 0,
+            "youPayPrice": 30
+          },
+          "pointsDetails": {
+            "maxPoints": 675,
+            "isWelcome": false,
+            "list": [
+              {
+                "type": "percent",
+                "value": 675
+              }
+            ]
+          }
+        }
+      ],
+      "creativeSettings": {
+        "adImageView": "cropped",
+        "logoImage": {
+          "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
+        }
+      },
+      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Computers+mint+green+38097"
+    },
+    {
+      "id": "637df11d0968140008e5f0c1",
+      "_id": "637df11d0968140008e5f0c1",
+      "externalId": "7324973203653",
+      "account": "62b19450a4f9f31dec255bcc",
+      "campaign": "638618c336cbcf0012b2c94f",
+      "title": "e-markets 1668700093249 Salad 1668700093249",
+      "description": "<strong>Some unique description with SKU1668700101222</strong>",
+      "brandName": "test-dev-alina",
+      "shopDomain": "test-dev-alina.myshopify.com",
+      "category": "grocery & gourmet food",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_12ab3c63-f642-4ccf-a162-6c81fdf236c2.jpg?v=1668700103",
+          "externalId": 32169993830597,
+          "position": 1,
+          "externalProductId": 7324973203653
+        }
+      ],
+      "options": [
+        {
+          "values": [
+            "Default Title"
+          ],
+          "name": "Title",
+          "externalId": 9364871839941,
+          "position": 1,
+          "externalProductId": 7324973203653
         }
       ],
       "variants": [
@@ -1638,11 +1358,11 @@
           "price": 100,
           "inventoryPolicy": "deny",
           "fulfillmentService": "manual",
-          "externalId": 41889532281029,
+          "externalId": 41889602863301,
           "option1": "Default Title",
           "position": 1,
           "title": "Default Title",
-          "externalProductId": 7324950921413,
+          "externalProductId": 7324973203653,
           "rewards": [],
           "priceDetails": {
             "originalPrice": 100,
@@ -1668,25 +1388,235 @@
           "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
         }
       },
-      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=infomediaries+1668697386555+Tuna+1668697386555"
+      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=e-markets+1668700093249+Salad+1668700093249"
     },
     {
-      "id": "637df11e0968140008e5f0d8",
-      "_id": "637df11e0968140008e5f0d8",
-      "externalId": "7327914655941",
+      "id": "637df11d0968140008e5f0c4",
+      "_id": "637df11d0968140008e5f0c4",
+      "externalId": "7325040935109",
       "account": "62b19450a4f9f31dec255bcc",
       "campaign": "638618c336cbcf0012b2c94f",
-      "title": "Jewelery pink 01569",
-      "description": "<strong>Some unique description with SKU1669113287297</strong>",
+      "title": "Electronics salmon 82810",
+      "description": "<strong>Some unique description with SKU1668704290921</strong>",
+      "brandName": "test-dev-alina",
+      "shopDomain": "test-dev-alina.myshopify.com",
+      "category": "home & kitchen",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_d507c49b-2886-43bd-8a28-4edccb6dd2b1.jpg?v=1668704302",
+          "externalId": 32170291560645,
+          "position": 1,
+          "externalProductId": 7325040935109
+        }
+      ],
+      "options": [
+        {
+          "values": [
+            "Default Title"
+          ],
+          "name": "Title",
+          "externalId": 9364941930693,
+          "position": 1,
+          "externalProductId": 7325040935109
+        }
+      ],
+      "variants": [
+        {
+          "requiresShipping": true,
+          "quantity": 100,
+          "originalPrice": null,
+          "price": 30,
+          "inventoryPolicy": "deny",
+          "fulfillmentService": "manual",
+          "externalId": 41889705427141,
+          "option1": "Default Title",
+          "position": 1,
+          "title": "Default Title",
+          "externalProductId": 7325040935109,
+          "rewards": [],
+          "priceDetails": {
+            "originalPrice": 30,
+            "rewardsPrice": 0,
+            "rewardsPercent": 0,
+            "youPayPrice": 30
+          },
+          "pointsDetails": {
+            "maxPoints": 675,
+            "isWelcome": false,
+            "list": [
+              {
+                "type": "percent",
+                "value": 675
+              }
+            ]
+          }
+        }
+      ],
+      "creativeSettings": {
+        "adImageView": "cropped",
+        "logoImage": {
+          "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
+        }
+      },
+      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Electronics+salmon+82810"
+    },
+    {
+      "id": "637df11d0968140008e5f0cc",
+      "_id": "637df11d0968140008e5f0cc",
+      "externalId": "7325192749253",
+      "account": "62b19450a4f9f31dec255bcc",
+      "campaign": "638618c336cbcf0012b2c94f",
+      "title": "Grocery orchid 25152",
+      "description": "<strong>Some unique description with SKU1668713101363</strong>",
+      "brandName": "test-dev-alina",
+      "shopDomain": "test-dev-alina.myshopify.com",
+      "category": "toys & games",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_984c17c5-712f-43c8-8a35-107c91f5bcf1.jpg?v=1668713113",
+          "externalId": 32170901536965,
+          "position": 1,
+          "externalProductId": 7325192749253
+        }
+      ],
+      "options": [
+        {
+          "values": [
+            "Default Title"
+          ],
+          "name": "Title",
+          "externalId": 9365096267973,
+          "position": 1,
+          "externalProductId": 7325192749253
+        }
+      ],
+      "variants": [
+        {
+          "requiresShipping": true,
+          "quantity": 100,
+          "originalPrice": null,
+          "price": 30,
+          "inventoryPolicy": "deny",
+          "fulfillmentService": "manual",
+          "externalId": 41890002206917,
+          "option1": "Default Title",
+          "position": 1,
+          "title": "Default Title",
+          "externalProductId": 7325192749253,
+          "rewards": [],
+          "priceDetails": {
+            "originalPrice": 30,
+            "rewardsPrice": 0,
+            "rewardsPercent": 0,
+            "youPayPrice": 30
+          },
+          "pointsDetails": {
+            "maxPoints": 675,
+            "isWelcome": false,
+            "list": [
+              {
+                "type": "percent",
+                "value": 675
+              }
+            ]
+          }
+        }
+      ],
+      "creativeSettings": {
+        "adImageView": "cropped",
+        "logoImage": {
+          "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
+        }
+      },
+      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Grocery+orchid+25152"
+    },
+    {
+      "id": "637df11d0968140008e5f0cd",
+      "_id": "637df11d0968140008e5f0cd",
+      "externalId": "7325225451717",
+      "account": "62b19450a4f9f31dec255bcc",
+      "campaign": "638618c336cbcf0012b2c94f",
+      "title": "Grocery purple 51405",
+      "description": "<strong>Some unique description with SKU1668724329570</strong>",
+      "brandName": "test-dev-alina",
+      "shopDomain": "test-dev-alina.myshopify.com",
+      "category": "toys & games",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_573c5380-8fc8-4766-af36-56aaa20fb551.jpg?v=1668724339",
+          "externalId": 32171574395077,
+          "position": 1,
+          "externalProductId": 7325225451717
+        }
+      ],
+      "options": [
+        {
+          "values": [
+            "Default Title"
+          ],
+          "name": "Title",
+          "externalId": 9365135294661,
+          "position": 1,
+          "externalProductId": 7325225451717
+        }
+      ],
+      "variants": [
+        {
+          "requiresShipping": false,
+          "quantity": 100,
+          "originalPrice": null,
+          "price": 100,
+          "inventoryPolicy": "deny",
+          "fulfillmentService": "manual",
+          "externalId": 41890156019909,
+          "option1": "Default Title",
+          "position": 1,
+          "title": "Default Title",
+          "externalProductId": 7325225451717,
+          "rewards": [],
+          "priceDetails": {
+            "originalPrice": 100,
+            "rewardsPrice": 0,
+            "rewardsPercent": 0,
+            "youPayPrice": 100
+          },
+          "pointsDetails": {
+            "maxPoints": 2250,
+            "isWelcome": false,
+            "list": [
+              {
+                "type": "percent",
+                "value": 2250
+              }
+            ]
+          }
+        }
+      ],
+      "creativeSettings": {
+        "adImageView": "cropped",
+        "logoImage": {
+          "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
+        }
+      },
+      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Grocery+purple+51405"
+    },
+    {
+      "id": "637df11d0968140008e5f0ce",
+      "_id": "637df11d0968140008e5f0ce",
+      "externalId": "7324951838917",
+      "account": "62b19450a4f9f31dec255bcc",
+      "campaign": "638618c336cbcf0012b2c94f",
+      "title": "Hat 1668697572450",
+      "description": "<strong>Some unique description with SKU1668697572452</strong>",
       "brandName": "test-dev-alina",
       "shopDomain": "test-dev-alina.myshopify.com",
       "category": "clothing, shoes & jewelry",
       "images": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_75edc653-2cca-4b43-9b3f-5facebf70ef8.jpg?v=1669113295",
-          "externalId": 32200605171909,
+          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_078872a6-a119-41cd-ad34-524207ee211c.jpg?v=1668697574",
+          "externalId": 32169683419333,
           "position": 1,
-          "externalProductId": 7327914655941
+          "externalProductId": 7324951838917
         }
       ],
       "options": [
@@ -1695,9 +1625,9 @@
             "Default Title"
           ],
           "name": "Title",
-          "externalId": 9368454856901,
+          "externalId": 9364849295557,
           "position": 1,
-          "externalProductId": 7327914655941
+          "externalProductId": 7324951838917
         }
       ],
       "variants": [
@@ -1708,11 +1638,11 @@
           "price": 100,
           "inventoryPolicy": "deny",
           "fulfillmentService": "manual",
-          "externalId": 41898634248389,
+          "externalId": 41889535951045,
           "option1": "Default Title",
           "position": 1,
           "title": "Default Title",
-          "externalProductId": 7327914655941,
+          "externalProductId": 7324951838917,
           "rewards": [],
           "priceDetails": {
             "originalPrice": 100,
@@ -1738,25 +1668,25 @@
           "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
         }
       },
-      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Jewelery+pink+01569"
+      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Hat+1668697572450"
     },
     {
-      "id": "637df11e0968140008e5f0dc",
-      "_id": "637df11e0968140008e5f0dc",
-      "externalId": "7324967862469",
+      "id": "637df11e0968140008e5f0de",
+      "_id": "637df11e0968140008e5f0de",
+      "externalId": "7324957343941",
       "account": "62b19450a4f9f31dec255bcc",
       "campaign": "638618c336cbcf0012b2c94f",
-      "title": "Keyboard 1668699368464",
-      "description": "<strong>Some unique description with SKU1668699368465</strong>",
+      "title": "methodologies 1668698171889 Chicken 1668698171889",
+      "description": "<strong>Some unique description with SKU1668698180271</strong>",
       "brandName": "test-dev-alina",
       "shopDomain": "test-dev-alina.myshopify.com",
-      "category": "musical instruments",
+      "category": "grocery & gourmet food",
       "images": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_d2981109-d58d-464b-8db3-29fec6ef5324.jpg?v=1668699370",
-          "externalId": 32169895526597,
+          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_a4c8018e-2c2d-4eb2-b1f7-fa4df350aa76.jpg?v=1668698182",
+          "externalId": 32169758326981,
           "position": 1,
-          "externalProductId": 7324967862469
+          "externalProductId": 7324957343941
         }
       ],
       "options": [
@@ -1765,9 +1695,9 @@
             "Default Title"
           ],
           "name": "Title",
-          "externalId": 9364866203845,
+          "externalId": 9364855226565,
           "position": 1,
-          "externalProductId": 7324967862469
+          "externalProductId": 7324957343941
         }
       ],
       "variants": [
@@ -1778,11 +1708,11 @@
           "price": 100,
           "inventoryPolicy": "deny",
           "fulfillmentService": "manual",
-          "externalId": 41889586348229,
+          "externalId": 41889554006213,
           "option1": "Default Title",
           "position": 1,
           "title": "Default Title",
-          "externalProductId": 7324967862469,
+          "externalProductId": 7324957343941,
           "rewards": [],
           "priceDetails": {
             "originalPrice": 100,
@@ -1808,25 +1738,95 @@
           "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
         }
       },
-      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Keyboard+1668699368464"
+      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=methodologies+1668698171889+Chicken+1668698171889"
     },
     {
-      "id": "637df11e0968140008e5f0dd",
-      "_id": "637df11e0968140008e5f0dd",
-      "externalId": "7325225582789",
+      "id": "637df11e0968140008e5f0e9",
+      "_id": "637df11e0968140008e5f0e9",
+      "externalId": "7324964389061",
       "account": "62b19450a4f9f31dec255bcc",
       "campaign": "638618c336cbcf0012b2c94f",
-      "title": "Kids turquoise 84811",
-      "description": "<strong>Some unique description with SKU1668724363951</strong>",
+      "title": "paradigms 1668698910629 Sausages 1668698910629",
+      "description": "<strong>Some unique description with SKU1668698918398</strong>",
+      "brandName": "test-dev-alina",
+      "shopDomain": "test-dev-alina.myshopify.com",
+      "category": "grocery & gourmet food",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_95f917b4-d24d-4599-ad31-13093cfef5bc.jpg?v=1668698920",
+          "externalId": 32169845457093,
+          "position": 1,
+          "externalProductId": 7324964389061
+        }
+      ],
+      "options": [
+        {
+          "values": [
+            "Default Title"
+          ],
+          "name": "Title",
+          "externalId": 9364862501061,
+          "position": 1,
+          "externalProductId": 7324964389061
+        }
+      ],
+      "variants": [
+        {
+          "requiresShipping": false,
+          "quantity": 100,
+          "originalPrice": null,
+          "price": 100,
+          "inventoryPolicy": "deny",
+          "fulfillmentService": "manual",
+          "externalId": 41889573306565,
+          "option1": "Default Title",
+          "position": 1,
+          "title": "Default Title",
+          "externalProductId": 7324964389061,
+          "rewards": [],
+          "priceDetails": {
+            "originalPrice": 100,
+            "rewardsPrice": 0,
+            "rewardsPercent": 0,
+            "youPayPrice": 100
+          },
+          "pointsDetails": {
+            "maxPoints": 2250,
+            "isWelcome": false,
+            "list": [
+              {
+                "type": "percent",
+                "value": 2250
+              }
+            ]
+          }
+        }
+      ],
+      "creativeSettings": {
+        "adImageView": "cropped",
+        "logoImage": {
+          "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
+        }
+      },
+      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=paradigms+1668698910629+Sausages+1668698910629"
+    },
+    {
+      "id": "637df11e0968140008e5f0f0",
+      "_id": "637df11e0968140008e5f0f0",
+      "externalId": "7325080092869",
+      "account": "62b19450a4f9f31dec255bcc",
+      "campaign": "638618c336cbcf0012b2c94f",
+      "title": "Product E2E 35408 Buckinghamshire",
+      "description": "<strong>Some unique description with SKU1668708657816</strong>",
       "brandName": "test-dev-alina",
       "shopDomain": "test-dev-alina.myshopify.com",
       "category": "clothing, shoes & jewelry",
       "images": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_dd33e30d-7df7-4756-854d-4d04b2ea6679.jpg?v=1668724374",
-          "externalId": 32171576131781,
+          "src": "https://cdn.shopify.com/s/files/1/0619/1366/1637/products/initial_product_1_30540be8-bf63-446a-99eb-24dcedc6c9f7.jpg?v=1668708663",
+          "externalId": 32170536698053,
           "position": 1,
-          "externalProductId": 7325225582789
+          "externalProductId": 7325080092869
         }
       ],
       "options": [
@@ -1835,9 +1835,9 @@
             "Default Title"
           ],
           "name": "Title",
-          "externalId": 9365135491269,
+          "externalId": 9364981711045,
           "position": 1,
-          "externalProductId": 7325225582789
+          "externalProductId": 7325080092869
         }
       ],
       "variants": [
@@ -1845,28 +1845,28 @@
           "requiresShipping": false,
           "quantity": 99,
           "originalPrice": null,
-          "price": 100,
+          "price": 130,
           "inventoryPolicy": "deny",
           "fulfillmentService": "manual",
-          "externalId": 41890156183749,
+          "externalId": 41889802584261,
           "option1": "Default Title",
           "position": 1,
           "title": "Default Title",
-          "externalProductId": 7325225582789,
+          "externalProductId": 7325080092869,
           "rewards": [],
           "priceDetails": {
-            "originalPrice": 100,
+            "originalPrice": 130,
             "rewardsPrice": 0,
             "rewardsPercent": 0,
-            "youPayPrice": 100
+            "youPayPrice": 130
           },
           "pointsDetails": {
-            "maxPoints": 2250,
+            "maxPoints": 2925,
             "isWelcome": false,
             "list": [
               {
                 "type": "percent",
-                "value": 2250
+                "value": 2925
               }
             ]
           }
@@ -1878,33 +1878,33 @@
           "Location": "https://klickly.s3.amazonaws.com/creative-settings-logo/62b19450a4f9f31dec255bcc_165580520784114_blob"
         }
       },
-      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Kids+turquoise+84811"
+      "brandLink": "https://test-dev-alina.myshopify.com/?utm_source=klickly&utm_medium=marketing&utm_term=Product+E2E+35408+Buckinghamshire"
     }
   ],
   "aggregations": {
     "categories": {
-      "movies & tv": 1132,
-      "home & kitchen": 968,
-      "health & personal care": 330,
-      "sports & outdoors": 1308,
-      "office products": 350,
-      "pet supplies": 202,
-      "musical instruments": 1259,
-      "tools & home improvement": 672,
-      "electronics": 717,
+      "movies & tv": 1137,
+      "home & kitchen": 979,
+      "health & personal care": 335,
+      "sports & outdoors": 1324,
+      "office products": 354,
+      "pet supplies": 206,
+      "musical instruments": 1266,
+      "tools & home improvement": 679,
+      "electronics": 726,
       "baby": 44,
-      "clothing, shoes & jewelry": 3856,
-      "toys & games": 3477,
-      "grocery & gourmet food": 540,
+      "clothing, shoes & jewelry": 3902,
+      "toys & games": 3494,
+      "grocery & gourmet food": 552,
       "cell phones & accessories": 2,
-      "beauty": 728,
-      "automotive": 629,
-      "arts, crafts & sewing": 132,
-      "patio, lawn & garden": 350
+      "beauty": 737,
+      "automotive": 638,
+      "arts, crafts & sewing": 133,
+      "patio, lawn & garden": 354
     },
     "brands": {
       "603cbd2c0035877ae444a56d": 3,
-      "6388d94d9007cc001277cfaf": 11652,
+      "6388d94d9007cc001277cfaf": 11796,
       "638f4d2b17fe0f697c30111d": 5,
       "62d80175652f15074e6314c4": 99,
       "63528b7ce997362d8d853470": 2420,
@@ -1954,7 +1954,7 @@
       "64e5eb3219357b218c5d1c4c": 10,
       "642ee6aa6a79d55297838b33": 69,
       "64e88e085d3cb980a1e26b88": 10,
-      "651d47beaa5517c1afa74030": 62,
+      "651d47beaa5517c1afa74030": 64,
       "64e8b8015d3cb980a1e27e4b": 10,
       "626a7c63a58f7036365fc011": 4,
       "62ce9416fde6607f9055e155": 2,
@@ -1967,7 +1967,7 @@
       "64e88f1c5d3cb980a1e26c12": 10,
       "6310ae8af8e77a55000fdcd9": 6,
       "620a434c938f5b3533eed826": 5,
-      "6388d9af9007cc001277d035": 65,
+      "6388d9af9007cc001277d035": 71,
       "64e767325d3cb980a1e25d93": 10,
       "64ca6918e5be61f2f0c87fa4": 12,
       "64e5db0819357b218c5d189b": 10,
@@ -1980,7 +1980,7 @@
       "6241bde9e20f531767520eb1": 1,
       "603cc1530035877ae444a58b": 3,
       "6079782986fc723840a387e0": 7,
-      "633444ebe997362d8d777b3d": 133,
+      "633444ebe997362d8d777b3d": 138,
       "64ea63fa5d3cb980a1e28388": 10,
       "649ac8a08056d922484ef82e": 11,
       "63613122207475266e619bcb": 1,
@@ -1997,7 +1997,7 @@
       "6388dd599007cc001277d26e": 13,
       "64e75c365d3cb980a1e257eb": 10,
       "61fd0c1b06e49f1a2829694a": 1,
-      "651ad289b14c7f37c6676452": 183,
+      "651ad289b14c7f37c6676452": 189,
       "64bf8c47e5be61f2f0c4368c": 7,
       "603cc5f50035877ae444a5b5": 3,
       "64e8cd5b5d3cb980a1e280d5": 10,
@@ -2014,7 +2014,7 @@
       "64e867875d3cb980a1e260cd": 10,
       "635a6ab5e997362d8d872dc3": 11,
       "64eccaa25d3cb980a1e317e4": 12,
-      "6388c5a536cbcf0012b3663c": 941,
+      "6388c5a536cbcf0012b3663c": 944,
       "6155b5dc0b871d26f103bb4c": 6,
       "6388da199007cc001277d0bb": 3,
       "6388d97c9007cc001277cff2": 44,
